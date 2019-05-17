@@ -16,4 +16,8 @@ public class AppTest {
     	Sumatoria.calcular(-3);
     }
     
+    @Test public void casoEspecialCero() {
+    	assertTrue( Sumatoria.calcular(0) == 0);
+    }
+    
 }
