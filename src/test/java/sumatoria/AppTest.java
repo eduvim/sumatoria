@@ -11,5 +11,9 @@ public class AppTest {
         assertTrue( Sumatoria.calcular(3) == 6 );
     }
     
+    @Test( expected = ArithmeticException.class )
+    public void sumatoriaCasoNegativos() {
+    	Sumatoria.calcular(-3);
+    }
     
 }
