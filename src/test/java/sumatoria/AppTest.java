@@ -10,4 +10,6 @@ public class AppTest {
     @Test public void sumatoriaCasoPositivo() {
         assertTrue( Sumatoria.calcular(3) == 6 );
     }
+    
+    
 }
