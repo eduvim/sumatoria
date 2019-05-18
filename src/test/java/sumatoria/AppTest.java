@@ -20,4 +20,8 @@ public class AppTest {
     	assertTrue( Sumatoria.calcular(0) == 0);
     }
     
+    @Test public void casoEspecialUno() {
+    	assertTrue( Sumatoria.calcular(1) == 1);
+    }
+    
 }
